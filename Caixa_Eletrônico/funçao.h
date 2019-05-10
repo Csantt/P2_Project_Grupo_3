@@ -1,11 +1,17 @@
 #ifndef FUNÁAO_H_INCLUDED
 #define FUNÁAO_H_INCLUDED
 
-//#include <C:\Users\Icaro\Documents\GitHub\P2_Project_Grupo_3\Caixa_EletrÙnico/fuctions.c>
 
-void writeTeste(){
-    printf("123 TESTANDO");
+struct conta {
+    int agencia;
+    short int operacaoBancaria;
+    int numConta;
+    int senha;
+};
+
+
+void sacar(int valorDeSaque, int dinheiroConta, int senhaRecebida){
+
 }
-
 
 #endif // FUNÁAO_H_INCLUDED
