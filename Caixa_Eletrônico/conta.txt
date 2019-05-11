@@ -1,4 +1,0 @@
-
-      agencia  operaçao   conta
-	0000  	 000	 000000-0
-
