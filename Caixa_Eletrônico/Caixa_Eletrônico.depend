@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1557583114 source:c:\users\icaro\documents\github\p2_project_grupo_3\caixa_eletrônico\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"fuctions.h"
+
+1557583114 c:\users\icaro\documents\github\p2_project_grupo_3\caixa_eletrônico\fuctions.h
+
