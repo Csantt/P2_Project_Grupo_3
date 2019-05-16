@@ -6,8 +6,22 @@
         int operacao;
         int numConta;
         int senha;
+        float saldo;
+        float historicoSaque[5];
+        float historicoDeposito[5];
     };
 
+    void fSaque(float &saldoSaq,float dinheiroAretirar,float historico[5]){
+
+    if(saldoSaq>=dinheiroAretirar){
+    saldoSaq -= dinheiroAretirar;
+    historico[contadorDeSaque] = dinheiroAretirar;
+    contadorDeSaque++; //variavel GLOBAL!
+    }else{
+        printf("Saldo Insuficiente!\n");
+    }
+
+}
 
 
 

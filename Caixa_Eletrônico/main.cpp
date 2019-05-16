@@ -5,7 +5,7 @@
 
 int main()
 {
-    conta usuario[3];
+    conta usuario[2];
 
 
 
